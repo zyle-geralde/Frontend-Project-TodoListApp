@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To do list</title>
+        <style>
+            .background{
+                background-image: url("adult-gd33fa2d46_1920.jpg");
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-top: 300px;
+                min-height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                font-family: Verdana;
+            }
+            .todocont{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                font-family: Verdana;
+                width: 360px;
+                border-radius: 2px;
+                padding-bottom: 10px;
+                margin-bottom: 60px;
+            }
+            .inptcont{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 340px;
+                justify-content: space-between;
+            }
+            .title{
+                font-size: 25px;
+                background-color: rgb(224, 198, 173);
+                width: 360px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .assbut{
+                border-style: solid;
+                border-width: 2px;
+                border-color: burlywood;
+                padding: 3px 10px;
+                color: brown;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+            .assbut:hover{
+                background-color: burlywood;
+                color: white;
+            }
+            .inpt{
+                width: 280px;
+                height: 21px;
+                border-width: 2px;
+                border-radius: 4px;
+            }
+
+
+                    /*list cont*/
+        /*-----------------------------------------------*/
+            .dolist{
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(255, 246, 232);
+                border-radius: 5px;
+            }
+            .listelem{
+                display: flex;
+                flex-direction: row;
+                font-size: 18px;
+                padding: 0px 10px;
+            }
+            .butlist{
+                display: flex;
+                flex-direction: row;
+                border-left: solid;
+                border-color: brown;
+                min-height: 50px;
+                font-size: 20px;
+                justify-content: space-between;
+                align-items: center;
+                width: 105px;
+                padding: 0px 10px;
+            }
+            .check{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                color: blue;
+                font-weight: bold;
+                border-style: solid;
+                border-width: 1px;
+                border-color: blue;
+                width: 40px;
+                padding: 3px 3px;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+            .check:hover{
+                background-color: rgb(59, 132, 248);
+                color: white;
+            }
+            .trash{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                color: red;
+                font-weight: bold;
+                border-style: solid;
+                border-width: 1px;
+                border-color: red;
+                width: 40px;
+                padding: 3px 3px; 
+                cursor: pointer;
+                transition: 0.2s;
+            }
+            .trash:hover{
+                background-color: rgb(255, 120, 93);
+                color: white;
+            }
+            .name{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 300px;
+                word-break: break-word;
+                padding: 10px;
+            }
+            .name2{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                min-width: 300px;
+                text-decoration: line-through;
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body class = background>
+        <div class = todocont>
+            <div class = title>To do list</div>
+            <div class = inptcont>
+                <div class = inptbar>
+                    <input type="text" placeholder="Enter Task", class = inpt>
+                </div>
+                <div class = assbut>
+                    +
+                </div>
+            </div>
+        </div>
+
+        <div class = dolist>
+        </div>
+
+        <script src="to do list.js"></script>
+    </body>
+</html>
+<!--Images-->
+<!--Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1850177">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1850177">Pixabay</a>-->
